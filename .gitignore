@@ -1,0 +1,7 @@
+*.key
+*.crt
+*.pem
+
+vars/secrets.yml
+
+.DS_Store
