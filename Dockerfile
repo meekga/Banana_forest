@@ -1,5 +1,7 @@
 FROM nginx:alpine
 
+RUN apk update && apk upgrade
+
 COPY ./nginx-config/nginx.conf /etc/nginx/nginx.conf
 
 COPY ./nginx-config/conf.d/vh81.conf /etc/nginx/conf.d/vh443.conf
