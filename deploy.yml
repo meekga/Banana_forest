@@ -32,7 +32,7 @@
       docker_image:
         name: banana-nginx
         build:
-          path: /opt/Banana_forest
+          path: /root/Banana_forest
         source: build
 
     - name: 6.start Nginx with Port 443
